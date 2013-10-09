@@ -1,3 +1,14 @@
+// Info
+// Body Adiposity Index Classifications for Women
+// Age(years)Underweight Healthy Overweight Obese
+// 20 - 39 Less than 21 % 21 % to 33 % Greater than 33 % Greater than 39 %
+// 40 - 59 Less than 23 % 23 % to 35 % Greater than 35 % Greater than 41 %
+// 60 - 79 Less than 25 % 25 % to 38 % Greater than 38 % Greater than 43 %
+// Body Adiposity Index Classifications for Men
+// Age(years)Underweight Healthy Overweight Obese
+// 20 - 39 Less than 8 % 8 % to 21 % Greater than 21 % Greater than 26 %
+// 40 - 59 Less than 11 % 11 % to 23 % Greater than 23 % Greater than 29 %
+// 60 - 79 Less than 13 % 13 % to 25 % Greater than 25 % Greater than 31 %
 var BAI = (function () {
 	var BAI = function (o) {
 		if (!o || typeof o !== "object") {
