@@ -1,4 +1,5 @@
 // based off of http://www.builtlean.com/2010/08/03/ideal-body-fat-percentage-chart/
+// @todo Find out if this is accurately. Muscle mass can throw off the weight when the body fat is reduced.
 var bodyFatChart = function(weight, bodyFat){
 	var baseWeight = weight * ((100 - bodyFat)/100);
 	var wpf = (weight * 0.01 * bodyFat) / bodyFat;
