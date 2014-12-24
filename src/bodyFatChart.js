@@ -1,3 +1,4 @@
+// based off of http://www.builtlean.com/2010/08/03/ideal-body-fat-percentage-chart/
 var bodyFatChart = function(weight, bodyFat){
 	var baseWeight = weight * ((100 - bodyFat)/100);
 	var wpf = (weight * 0.01 * bodyFat) / bodyFat;
